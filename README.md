@@ -4,20 +4,26 @@ CustomStatusBar 是Android上实现一个自定义状态栏同原生状态栏一
 
 使用Service+BaseActivity+WindowManager实现，源代码：[https://github.com/canney-chen/CustomStatusBar/tree/master/StatusBar](https://github.com/canney-chen/CustomStatusBar/tree/master/StatusBar)
 
-## 实现CustomStatusBarService 
-  需要继承me.kaini.statusbar.AbsStatusBar
+## 1.  实现CustomStatusBarService 
+     1. 需要继承me.kaini.statusbar.AbsStatusBar
   
-  实现protected void initStatusBar(StatusBar statusBar)方法初始化状态栏的内容
+     2. 实现protected void initStatusBar(StatusBar statusBar)方法初始化状态栏的内容
   
-## 配置AndroidManifest.xml
-  需要应用的AndroidManifest.xml文件中配置一个applicatipn 它的name=me.kaini.statusbar.base.StatusBarApplication
+## 2.  配置AndroidManifest.xml
+  - 需要应用的AndroidManifest.xml文件中配置一个applicatipn 它的name=me.kaini.statusbar.base.StatusBarApplication
   
-  当然上面的CustomStatusBarService也得配置了。
+  - 当然上面的CustomStatusBarService也得配置了。
 
-## 继承me.kaini.statusbar.base.BaseActivity实现业务Activity
+## 3. 继承me.kaini.statusbar.base.BaseActivity实现业务Activity
 
 示例代码:[https://github.com/canney-chen/CustomStatusBar/tree/master/Example](https://github.com/canney-chen/CustomStatusBar/tree/master/Example)
 
 通过上面三步就可以实现自定义的状态栏了。
 
 ![自定义状态栏效果图](https://github.com/canney-chen/CustomStatusBar/blob/master/Example/statusbar.png)
+
+
+## 如果到这里还没搞定你可以访问我的博客：**[blog.csdn.net/canney_chen](blog.csdn.net/canney_chen)**
+- 查看[Android实现自定义状态栏](http://blog.csdn.net/canney_chen/article/details/46042323)、[解决自定义状态栏对软键盘及界面内容遮挡问题](http://blog.csdn.net/canney_chen/article/details/48788063)的文章
+
+- MailTo:chen.canney@gmail.com
