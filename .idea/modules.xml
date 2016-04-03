@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CustomStatusBar.iml" filepath="$PROJECT_DIR$/CustomStatusBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Example/Example.iml" filepath="$PROJECT_DIR$/Example/Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatusBar/StatusBar.iml" filepath="$PROJECT_DIR$/StatusBar/StatusBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Example/example.iml" filepath="$PROJECT_DIR$/Example/example.iml" />
+    </modules>
+  </component>
+</project>

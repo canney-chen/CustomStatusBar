@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BarItem">
+        <attr name="android:icon"/>
+        <attr name="android:text"/>
+        <attr name="android:textColor"/>
+        <attr name="textVisibility">
+            <enum name="gone" value="8"/>
+            <enum name="visible" value="0"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

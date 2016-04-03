@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.kaini.example.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单击状态栏图标，展示不同情况下的处理代码" />
+
+    <Button
+        android:id="@+id/btn_editact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文本输入遮挡处理" />
+
+    <Button
+        android:id="@+id/btn_contentact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="处理Activity内容被状态栏遮挡问题" />
+</LinearLayout>

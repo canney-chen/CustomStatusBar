@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_icon_height">20dp</dimen>
+    <dimen name="status_bar_icon_width">20dp</dimen>
+    <color name="status_bar_text_color">@android:color/white</color>
+    <dimen name="status_bar_height">25dp</dimen>
+
+</resources>

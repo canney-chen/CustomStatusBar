@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.kaini.statusbar.view.StatusBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/status_bar_height"
+    android:background="@color/status_bar_color"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:dividerPadding="2dp"
+    android:showDividers="middle"
+    android:divider="@drawable/status_bar_divider"
+    android:gravity="left|center_vertical">
+    <me.kaini.statusbar.view.BarItem
+        android:id="@+id/sb_signal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left|center_vertical"
+        android:icon="@mipmap/signal"
+        android:text="10"
+        android:textColor="@android:color/black"/>
+    <me.kaini.statusbar.view.BarItem
+        android:id="@+id/sb_signal2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left|center_vertical"
+        android:icon="@mipmap/signal"
+        android:text="10"
+        app:textVisibility="gone"
+        android:textColor="@android:color/black"/>
+</me.kaini.statusbar.view.StatusBar>
