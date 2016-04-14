@@ -23,7 +23,7 @@ CustomStatusBar 是Android上实现一个自定义状态栏同原生状态栏一
 ![自定义状态栏效果图](https://github.com/canney-chen/CustomStatusBar/blob/master/Example/statusbar.png)
 
 
-## 如果到这里还没搞定你可以访问我的博客：**[blog.csdn.net/canney_chen](blog.csdn.net/canney_chen)**
+## 如果到这里还没搞定你可以访问我的博客：**[http://blog.csdn.net/canney_chen](http://blog.csdn.net/canney_chen)**
 - 查看[Android实现自定义状态栏](http://blog.csdn.net/canney_chen/article/details/46042323)、[解决自定义状态栏对软键盘及界面内容遮挡问题](http://blog.csdn.net/canney_chen/article/details/48788063)的文章
 
 - MailTo:chen.canney@gmail.com
